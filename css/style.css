@@ -89,6 +89,14 @@ a {
   color: #fff;
 }
 
+@media screen and (min-width: 1000px){
+  .contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 /* FOOTER */
 @media screen and (min-width: 1000px) {
   .footer {
