@@ -112,6 +112,7 @@ a {
     flex-direction: row-reverse;
     justify-content: center;
   }
+
 }
 
 .footer {
@@ -163,7 +164,12 @@ a {
 }
 
 /* GALERIA */
-.main_galeria {
+@media screen and (min-width: 1000px){
+  .galeria{
+    display: flex;
+  }
+}
+.galeria {
   display: flex;
   flex-direction: column;
   justify-content: center;
