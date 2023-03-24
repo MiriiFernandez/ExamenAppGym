@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- HEADER -->
-    <div class="headerSimple">
+    <section class="headerSimple">
         <header class="headerSimpleExtendido">
             <picture>
                 <source srcset="
@@ -41,7 +41,43 @@
     
             </ul>
           </section>
+        </section>
+        <!-- MAIN -->
+        <section class="main">
+            <picture>
+                <source srcset="
+                ./img/banner1.webp 1x,
+                ./img/banner1@2x.webp 2x"
+                media="(min-width:350px) and (orientation:portrait)">
     
-        </div>
+                <!-- Desktop -->
+                <source srcset="
+                ./img/banner1.webp 1x,
+                ./img/banner1@2x.webp 2x"
+                media="(min-width:1000px)">
+                
+                <img class="main__banner" src="" alt="logotipo">
+            </picture>
+            <section class="main__parrafo">
+                <p>Los obstáculos no tienen que frenarte. Si te encuentras con una pared, no das la vuelta y abandonas. Encuentras la manera de subir a ella, pasar a través de ella o rodearla.</p>
+            </section>
+            <picture>
+                <source srcset="
+                ./img/banner2.webp 1x,
+                ./img/banner2@2x.webp 2x"
+                media="(min-width:350px) and (orientation:portrait)">
+    
+                <!-- Desktop -->
+                <source srcset="
+                ./img/banner2.webp 1x,
+                ./img/banner2@2x.webp 2x"
+                media="(min-width:1000px)">
+                
+                <img class="main__banner" src="" alt="logotipo">
+            </picture>
+            <section class="main__parrafo2">
+                <h2 class="parrafo2__texto">¡Únete a nuestro Gym!</h2>
+            </section>
+        </section>
 </body>
 </html>

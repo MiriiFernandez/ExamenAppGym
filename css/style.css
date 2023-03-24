@@ -5,10 +5,14 @@
 
 body {
   width: 100%;
+  background-color: #363636;
 }
 
+
+/* HEADER */
 .headerSimple {
-  background: #fff;
+  background: #363636;
+  width: 100%;
 }
 
 .headerSimpleExtendido {
@@ -59,4 +63,27 @@ a {
 
 .menu_navbar img {
   width: 55px;
+}
+
+/* MAIN */
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__banner1{
+    margin-top: 20px;
+}
+
+.main__parrafo{
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main__parrafo2{
+    padding: 10px;
+    color: #fff;
 }
