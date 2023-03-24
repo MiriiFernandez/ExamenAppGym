@@ -119,7 +119,44 @@
                 
                 <img class="main_galeria__imagen_marginright" src="" alt="">
             </picture>
-
         </section>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <!-- navbar  -->
+            <ul class="footer__navbar">
+             <li><a href="">Inicio</a></li>
+             <li><a href="">Nosotros</a></li>
+             <li><a href="">Galeria</a></li>
+             <li><a href="">Blog</a></li>
+            </ul>
+            <section class="seccionfooter__logo">
+             <picture>
+                 <source srcset="
+                 ./img/logo.webp 1x,
+                 ./img/logo@2x.webp 2x"
+                 media="(min-width:320px) and (orientation:portrait)">
+     
+                 <!-- Desktop -->
+                 <source srcset="
+                 ./img/logo.webp 1x,
+                 ./img/logo@2x.webp 2x"
+                 media="(min-width:1000px)">
+                 
+                 <img class="footer__logo" src="" alt="logotipo">
+             </picture>
+             <section class="rdds">
+                 <img src="img/svg/insta_icon.svg" alt="">
+                 <img src="img/svg/twitter_icon.svg" alt="">
+                 <img src="img/svg/facebook.svg" alt="">
+             </section>
+             <section class="footer_copy">
+                 <p class="footer_copy__texto">Copyright©2023 derechos reservados a Fitness Club</p>
+             </section>
+            </section>
+            <seccion class="footer_terminos">
+             <p>Terminos y Condiciones</p>
+             <p>Política y Privacidad</p>
+            </seccion>
+         </footer>
 </body>
 </html>
