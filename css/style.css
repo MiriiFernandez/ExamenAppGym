@@ -126,3 +126,19 @@ a {
   font-size: 10px;
   color: #fff;
 }
+
+/* GALERIA */
+.main_galeria{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_galeria__imagen_marginright{
+  margin-top: 10px;
+  margin-right: 120px;
+}
+
+.main_galeria__imagen_margin{
+  margin-left: 120px;
+}
